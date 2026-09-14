@@ -18,3 +18,6 @@ This repository contains the final capstone project for the AI-ML course. It is 
 
 ## Final Submission Notes
 This repository contains the completed Capstone Project implementation.
+
+## Final Submission Notes
+This repository contains the completed Capstone Project implementation.
