@@ -1,0 +1,56 @@
+{
+  "Q1": {
+    "answer": "Based on the retrieved context: Zepto delivers grocery and household essentials to serviceable pin codes within 10 to 30 minutes of order confirmation, depending on the customer's delivery zone and current order volume. Standard delivery is free on orders over INR 149; orders below this threshold incur a flat INR 25 delivery fee. Priority delivery, which reserves the next available rider slot, is available at checkout for an additional INR 15. Zepto does not currently deliver to addresses outside its listed serviceable pin codes.",
+    "sources": [
+      "doc_01.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q2": {
+    "answer": "Based on the retrieved context: If an order arrives with damaged, spoiled, or missing items, customers must report it within 24 hours of delivery through the 'Report an Issue' button on the order page. Zepto ships a free replacement or issues a full refund for damaged, spoiled, or missing items without requiring the customer to return the original item, unless the order value exceeds INR 1000, in which case a photo of the issue must be submitted through the report form before a replacement or refund is processed.",
+    "sources": [
+      "doc_06.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q3": {
+    "answer": "Based on the retrieved context: Zepto offers three account tiers: Basic (free, default tier, standard delivery fees apply), Zepto Pass (INR 49 per month, free standard delivery on all orders and 5% off select categories), and Zepto Pass+ (INR 99 per month, free priority delivery, 10% off select categories, and early access to limited-time deals 24 hours before they go live to Basic and Pass members). Membership can be cancelled at any time from account settings; cancelling stops the next billing cycle but does not refund the current membership period.",
+    "sources": [
+      "doc_03.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q4": {
+    "answer": "Based on the retrieved context: If an order arrives with damaged, spoiled, or missing items, customers must report it within 24 hours of delivery through the 'Report an Issue' button on the order page. Zepto ships a free replacement or issues a full refund for damaged, spoiled, or missing items without requiring the customer to return the original item, unless the order value exceeds INR 1000, in which case a photo of the issue must be submitted through the report form before a replacement or refund is processed.",
+    "sources": [
+      "doc_06.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q5": {
+    "answer": "Based on the retrieved context: Orders can be cancelled free of cost any time before the order status changes to 'Packed', typically within the first 2 minutes of placing the order. Once an order has been packed, it can no longer be cancelled through the app, since the rider is dispatched immediately after packing given Zepto's quick-delivery model. If a packed order cannot be delivered due to a Zepto-side issue (for example, rider unavailability), the order is auto-cancelled and fully refunded without any cancellation fee.",
+    "sources": [
+      "doc_05.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q6": {
+    "answer": "Based on the retrieved context: Zepto gift cards are available in fixed denominations of INR 100, INR 250, INR 500, and INR 1000, and are delivered by email or SMS within minutes of purchase. Gift cards are valid for 1 year from the date of issue and carry no maintenance fees. Gift card balance can be combined with one other payment method at checkout but cannot be combined with another gift card in the same transaction. Gift card balance cannot be redeemed for cash except where required by law.",
+    "sources": [
+      "doc_07.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q7": {
+    "answer": "Based on the retrieved context: Zepto customer support is available via in-app chat 24 hours a day, 7 days a week, given the time-sensitive nature of quick commerce deliveries. Average in-app chat response time is under 2 minutes. Email support is also available for non-urgent queries and is answered within 24 hours on business days. Phone support is not offered.",
+    "sources": [
+      "doc_08.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "Q8": {
+    "answer": "I can only answer questions about Zepto policies right now.",
+    "sources": [],
+    "confidence": 1.0
+  }
+}

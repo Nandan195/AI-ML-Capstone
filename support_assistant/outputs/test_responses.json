@@ -1,0 +1,14 @@
+{
+  "test_1": {
+    "answer": "Based on the retrieved context: Zepto delivery policy.",
+    "sources": [
+      "doc_01.txt_chunk_0"
+    ],
+    "confidence": 1.0
+  },
+  "test_2": {
+    "answer": "I can only answer questions about Zepto policies right now.",
+    "sources": [],
+    "confidence": 1.0
+  }
+}
