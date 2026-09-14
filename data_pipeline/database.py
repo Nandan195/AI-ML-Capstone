@@ -16,6 +16,10 @@ def setup_database():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     
+    # Drop existing tables to ensure idempotence
+    cursor.execute('DROP TABLE IF EXISTS books')
+    cursor.execute('DROP TABLE IF EXISTS categories')
+    
     # Create categories table
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS categories (
