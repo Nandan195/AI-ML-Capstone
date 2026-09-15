@@ -20,16 +20,16 @@ This repository contains an end-to-end AI/ML capstone project comprising three c
 - Evaluates classification models (Logistic Regression, Decision Trees, Random Forest), tuning Random Forest via Grid Search.
 - Addresses class imbalance using SMOTE and compares performance metrics.
 - Computes a regression side-task on passenger fare.
-- Saves the complete `sklearn` data preprocessing and modeling pipeline as a joblib artifact.
+- Saves the `sklearn` data preprocessing and modeling pipeline as a joblib artifact.
 
 ### 3. Support Assistant
 
 - Analyzes an 8-document Zepto policy corpus.
 - Chunks and natively embeds documents utilizing `all-MiniLM-L6-v2` via `sentence-transformers`.
 - Populates and queries a local `ChromaDB` vector store using cosine similarity.
-- Orchestrates conditional routing logic using `LangGraph` to dynamically intercept intent (policy vs general queries).
+- Uses `LangGraph` to route intent (policy vs general queries).
 - Exposes a `FastAPI` endpoint (`POST /ask`).
-- Features a deterministic, fully-offline Mock Mode, alongside an optional Gemini path.
+- Features an offline Mock Mode, alongside an optional Gemini path.
 - Includes a structured `Dockerfile`.
 
 ## Repository Structure
@@ -141,4 +141,4 @@ The repository's Git history contains the required branching structure. All deve
 
 ## Final Project Status
 
-All three graded modules (Data Pipeline, Analytics, and Support Assistant) have been successfully implemented and tested locally. The Docker runtime remains formally untested because the Docker engine was unavailable on the host. The project is finalized and complete.
+All three graded modules (Data Pipeline, Analytics, and Support Assistant) have been implemented and tested locally. The Docker runtime is untested because the Docker engine was unavailable on the host.
